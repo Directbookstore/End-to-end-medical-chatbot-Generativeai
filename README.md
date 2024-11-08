@@ -8,6 +8,7 @@ STEP 01- Create a conda environment after opening the repository
 conda create -n medibot python=3.10 -y
 conda activate medibot
 STEP 02- install the requirements
+I faced  issue when I installed sentence-transformers-2.2.2. So, I uninstalled it and installed the recent version that is sentence-transformers-2.4.0 and this fixed the issue for me.
 pip install -r requirements.txt
 Create a .env file in the root directory and add your Pinecone & openai credentials as follows:
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
