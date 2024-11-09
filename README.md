@@ -12,7 +12,7 @@ I faced  issue when I installed sentence-transformers-2.2.2. So, I uninstalled i
 pip install -r requirements.txt
 Create a .env file in the root directory and add your Pinecone & openai credentials as follows:
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 # run the following command to store embeddings to pinecone
 python store_index.py
 # Finally run the following command
